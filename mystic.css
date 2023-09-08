@@ -1,0 +1,123 @@
+*{
+  box-sizing:border-box
+}
+html body{
+  Margin:0;
+  padding:0;
+}
+body{
+  background-color:deepskyblue;
+  font-family:serif;
+}
+i{
+  color:rgb(18, 82, 221);
+  margin-top:15px;
+}
+Span{
+  color:lightcyan;
+  margin-top:15px;
+}
+.container{
+  
+  Position:relative;
+  background-color:rgb(48, 164, 236);
+  display:flex;
+  align-items:left;
+  
+  
+}
+  .nav-bar ul li {
+    float:left;
+    list-style-type:none;
+    justify-items:center;
+    margin-bottom: 15px;
+  }
+  .nav-bar a{
+    font-family:serif ;
+    text-decoration:none;
+    Padding: 5px 20px;
+    font-size:16px;
+    font-weight: 100px;
+    border-radius:50px;
+    Color:rgb(9, 17, 129);
+    background:none;
+  }
+  .nav-bar a:hover {
+    background-color: color-mix(in srgb , cyan 30%, transparent 70%);
+    Color: white;
+  }
+  h{
+    font-weight:bold;
+    font-size:20px;
+    font-family:serif;
+    Color:lightcyan;
+    border-radius:50px;
+    transition-duration: 1s;
+    transition-timing-function:ease;
+  }
+  p1{
+    Color:aliceblue;
+   font-weight:bold;
+   font-size:15px;
+  font-family:serif;
+  }
+  img{
+   max-width:100%;
+    height:auto;
+  }
+  .image-container{
+    margin:auto;
+    Width: 400px;;
+    box-shadow:0 3px 15px blue;
+    transition-duration: 2s;
+    margin-bottom:25px; 
+    margin-top:50px;
+  }
+.description{
+  padding:15px;
+    align-items:center;
+    Color:darkcyan;
+  }
+  .image-container:hover{
+    width:450px;
+  }
+  footer{
+    background-color:darkcyan;
+    width:100%;
+    height:200px;
+    
+  } 
+  .container material icons{
+    border-radius:50px;
+    background-color: darkred;
+  }
+   .fa{
+    font-size: 35px;
+    Padding:10px;
+    outline: none;
+    
+    color:deepskyblue;
+    background-size:blue;
+    justify-items: center;
+    Margin-top:20px;
+    background-color:transparent;
+    margin-left:50px;
+    float:left;
+    transition-duration:1s ease;
+  }
+
+  #search:hover{
+    color: #fff;
+    transform: translateY(-17px);
+  }
+  #snap:hover{
+    color:color-mix(in srgb, yellow 100%,transparent 20%) ;
+    transform: translateY(-17px);
+  } 
+ #red:hover {
+  
+  /*transform:scale(1.5);*/
+  color: rgba(255, 0, 0, 0.76);
+  
+transform:translateY(-10px);
+  }
