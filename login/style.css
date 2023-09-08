@@ -8,7 +8,7 @@ html body{
 
 body{
   position:relative;
-  background-color:rgb(165, 206, 241);
+  background-color:#002147;
   
   
 }
@@ -30,7 +30,7 @@ h1:hover{
   height:50px;
   max-width:100%;
   display:flex;
-  background-color:rgb(141, 189, 231);
+  background-color:rgb(71, 100, 126);
   align-items:left;
   border:none;
 }
@@ -73,7 +73,7 @@ h1:hover{
    width:300px;
    height:310px;
    box-shadow: 6px 7px 20px 0px deepskyblue;
-   background-color:rgba(41, 39, 39, 0.911);
+   background-color:#00205B;
    opacity:0.7;
    
    
